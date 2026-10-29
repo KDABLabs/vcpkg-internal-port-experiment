@@ -1,0 +1,16 @@
+{
+  "name": "pe-a",
+  "version-date": "2026-10-29",
+  "description": "the 'a' library",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}

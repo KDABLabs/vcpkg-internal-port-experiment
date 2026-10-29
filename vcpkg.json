@@ -1,0 +1,15 @@
+{
+  "name": "vcpkg-internal-port-experiment",
+  "version-string":"2026-10-29",
+  "dependencies": [
+    "curl"
+  ],
+  "features": {
+    "a-as-port": {
+      "description": "Build a as a port instead of a normal lib",
+      "dependencies": [
+        "pe-a"
+      ]
+    }
+  }
+}
