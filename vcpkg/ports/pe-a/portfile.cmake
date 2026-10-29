@@ -1,10 +1,6 @@
 vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 
-#if(DEFINED ENV{PE_PROJECT_ROOT})
-    set(PE_PROJECT_ROOT "$ENV{PE_PROJECT_ROOT}")
-#else()
-#    cmake_path(SET PE_PROJECT_ROOT NORMALIZE "${CMAKE_CURRENT_LIST_DIR}/../../..")
-#endif()
+set(PE_PROJECT_ROOT "$ENV{PE_PROJECT_ROOT}")
 
 set(SOURCE_PATH "${PE_PROJECT_ROOT}/lib/a")
 
